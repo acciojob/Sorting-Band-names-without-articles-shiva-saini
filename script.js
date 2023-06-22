@@ -31,12 +31,12 @@ touristSpots.sort(compareStrings)
 let ulElement = document.getElementById('bands');
 touristSpots.forEach((element) => {
 	let liElement = document.createElement('li');
-	liElement.innerHtml = `
+	liElement.innerText = `
                 ${element}
         `
 	ulElement.appendChild(liElement);
 })
-console.log(touristSpots);
+
 
 
 
